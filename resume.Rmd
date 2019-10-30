@@ -1,0 +1,118 @@
+---
+title: ""
+output:
+  html_document:
+    theme: paper
+---
+# 
+#
+#
+
+# EDUCATION
+
+
+**COLUMBIA UNIVERSITY Mailman School of Public Health** , New York, NY
+  _Expected graduation date: May 2020_ 
+  
+  Master of Public Health in Epidemiology -- Certificate in Applied Biostatistics	 	                         	        
+
+**THE GEORGE WASHINGTON UNIVERSITY**, Columbian College of Arts,**, Washington, DC 
+  _Graduation: May 2018_
+  
+  Bachelor of Science in Biology
+  
+  Bachelor of Arts in Psychology
+  
+  
+**OTHER ACADEMIC EXPERIENCE**
+
+  Health Promotion and Disease Prevention in Minority Communities Summer Institute  (Summer 2015) ( [website](https://summer.gwu.edu/health-promotion) )
+
+  Harlan Undergraduate Summer Research Fellowship	(Summer 2016) ( [website](https://biology.columbian.gwu.edu/wilbur-v-harlan-research-fellowship) )
+
+  Teaching Assistant for Introduction to Biology class (2016 - 2017)					                       
+  
+  Graduate Student Association Budget Committee (Fall 2019)
+  
+  
+**RELEVANT GRADUATE COURSEWORK**
+
+ - Analysis of Categorical Data
+ - Applied Regression 			
+ - Application of Epidemiologic Research Methods	
+ - Data Science
+ - Relational Databases and SQL Programming
+ - Introduction to RCT (Spring 2020)
+ - New Drug Development (Spring 2020)
+ 
+ (Coursework details and information can be found on Columbia's [course directory](https://www.mailman.columbia.edu/people/current-students/academics/course-directory))
+
+# 
+# 
+
+# PROFESSIONAL EXPERIENCE
+
+# 
+
+**NYC Department of Health and Mental Hygiene**, New York, NY (Current)
+_Position title:_ Graduate Researcher
+  
+  - Edited and analyzed large population-level data using SAS and Tableau
+  - Performed systematic literature review
+  - Developing statistical model to predict risk of birth defect given social and environmental factors
+  - Collaborating with preceptor and DOH research team to describe epidemiology of neurological birth defects in NYC population and identify risk factor for intervention proposal 
+
+_Position title:_ Epi Scholars Internship Program	 (Summer 2019)
+  
+  - Presented final results and conclusions to different level professionals and students at the DOHMH
+  - In the process of developing manuscript on descriptive epidemiology of fetal loss in NYC for publication
+
+
+**Columbia University**, New York, NY  (Current)
+
+_Position title:_ Graduate Teaching Assistant							         		       
+  
+  - Provided training in linear regression, other statistical concepts, and how to interpret findings; and aided students in programming in SAS
+  - Developed innovative ways of presenting complex material
+  - Collaborated with a team of faculty at weekly meeting and actively contributed new ideas on teaching
+
+
+**Children’s National Hospital**, Washington D.C. (August 2017 – May 2018)
+
+_Position title:_ Research Assistant				            				                           	   
+  
+  - Collaborated with PI to develop improvements in congenital heart defect research project  
+  - Reviewed over 20 pieces of literature, reported relevant information to supervisor and team, and implemented learned methods in our research
+  - Deliberated with team on developments of project and how to proceed accordingly
+
+**Biology Laboratory at The George Washington University**, Washington D.C.	 (January 2016 - May 2017)							
+_Position title:_ Research Assistant	
+  
+  - Collaborated with PI to develop innovative structure for research project 
+  - Reviewed progress of research project and executed improvements when necessary 
+  - Trained and assisted freshmen RAs in project
+
+# 
+
+# VOLUNTEERING
+
+# 
+
+**Health Care Experience at State Hospital of Londrina**, Londrina, Brazil  (Summer 2017)                          
+
+  - Conversed with physicians and discussed cases progress at hospital for low-income diverse population
+  - Created new labeling system implemented in the division
+
+**National Alliance on Mental Illness (NAMI)**, Washington D.C. (Summer 2015)				                                 
+  - Researched resources and compiled portfolio with resources information 
+  - Presented clients/callers with resources of interest to them 
+
+# 
+
+# SKILLS AND CERTIFICATIONS
+
+# 
+
+**Computer:** Microsoft Excel, Microsoft Access, SAS, Tableau, R and MySQL 
+
+**Languages:** Fluent in Portuguese. Conversational in French and Spanish.
