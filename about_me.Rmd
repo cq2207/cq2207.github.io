@@ -1,18 +1,12 @@
 ---
-title: "Carolina Cardoso"
-
+title: "About Me"
 output:
   html_document:
     theme: paper
 ---
 # 
-# 
-
-# About me
 
 # 
-
-  **Welcome!** 
   
   My name is Carolina Cardoso. I'm originally from [Londrina, Brazil](https://en.wikipedia.org/wiki/Londrina), where I live with my parents and five [dogs](https://www.instagram.com/theboomers_/?hl=en). 
   
@@ -20,4 +14,3 @@ output:
 My passion and focus within Public Health is [Sexual and Reproductive Health](https://www.unfpa.org/sexual-reproductive-health) and advancing health equity and access. 
   
   I currently live in New York City with three rommates and our foster dog, [Archer](https://www.nycacc.org/adopt/archer-75114). 
-  

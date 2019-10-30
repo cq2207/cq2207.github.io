@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Resume"
 output:
   html_document:
     theme: paper
@@ -26,9 +26,9 @@ output:
   
 **OTHER ACADEMIC EXPERIENCE**
 
-  Health Promotion and Disease Prevention in Minority Communities Summer Institute  (Summer 2015) ( [website](https://summer.gwu.edu/health-promotion) )
+  [Health Promotion and Disease Prevention in Minority Communities Summer Institute](https://summer.gwu.edu/health-promotion)  (Summer 2015)
 
-  Harlan Undergraduate Summer Research Fellowship	(Summer 2016) ( [website](https://biology.columbian.gwu.edu/wilbur-v-harlan-research-fellowship) )
+  [Harlan Undergraduate Summer Research Fellowship](https://biology.columbian.gwu.edu/wilbur-v-harlan-research-fellowship)	(Summer 2016)
 
   Teaching Assistant for Introduction to Biology class (2016 - 2017)					                       
   
@@ -62,7 +62,7 @@ _Position title:_ Graduate Researcher
   - Developing statistical model to predict risk of birth defect given social and environmental factors
   - Collaborating with preceptor and DOH research team to describe epidemiology of neurological birth defects in NYC population and identify risk factor for intervention proposal 
 
-_Position title:_ Epi Scholars Internship Program	 (Summer 2019)
+_Position title:_ [Epi Scholars Internship Program](https://www1.nyc.gov/site/doh/about/employment/epi-scholar.page)	 (Summer 2019) 
   
   - Presented final results and conclusions to different level professionals and students at the DOHMH
   - In the process of developing manuscript on descriptive epidemiology of fetal loss in NYC for publication
