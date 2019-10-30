@@ -1,14 +1,14 @@
 ---
-title: "Carolina Cardoso"
-
+title: "Carolina Queiroz Cardoso"
 output:
   html_document:
     theme: paper
 ---
 # 
-# 
 
-# About me
+<img src="images/peacedc.jpg" style="width:35%; border:5px; margin-right: 30px" align="left">
+
+# Hello!
 
 # 
 
@@ -16,7 +16,9 @@ output:
   
   My name is Carolina Cardoso. I'm originally from [Londrina, Brazil](https://en.wikipedia.org/wiki/Londrina), where I live with my parents and five [dogs](https://www.instagram.com/theboomers_/?hl=en). 
   
-  I graduated from [The George Washington University](https://www.gwu.edu/) in May 2018, with a _Bachelor of Sciences in Biology_, and a minor in Neuroscience, and a _Bachelor of Arts in Psychology_. On my junior year, I spent a summer at GW's [Health Promotion and Disease Prevention in Minority Communities Summer Institute](https://summer.gwu.edu/health-promotion), and, thus, began my passion for Public Health. I decided to make a career out of my passion, and moved to New York City to pursue a Master in Public Health at Columbia University, [Mailman School of Public Health](https://www.mailman.columbia.edu/academics/departments/epidemiology). **Currently, I'm a second-year MPH candidate in _Epidemiology_ with a certificate in Biostatistics.**
+  I graduated from [The George Washington University](https://www.gwu.edu/) in May 2018, with a _Bachelor of Sciences in Biology_, and a minor in Neuroscience, and a _Bachelor of Arts in Psychology_. On my junior year, I spent a summer at GW's [Health Promotion and Disease Prevention in Minority Communities Summer Institute](https://summer.gwu.edu/health-promotion), and, thus, began my passion for Public Health. I decided to make a career out of my passion, and moved to New York City to pursue a Master in Public Health at Columbia University, [Mailman School of Public Health](https://www.mailman.columbia.edu/academics/departments/epidemiology). 
+  
+  **Currently, I'm a second-year MPH candidate in _Epidemiology_ with a certificate in Biostatistics.**
 My passion and focus within Public Health is [Sexual and Reproductive Health](https://www.unfpa.org/sexual-reproductive-health) and advancing health equity and access. 
   
   I currently live in New York City with three rommates and our foster dog, [Archer](https://www.nycacc.org/adopt/archer-75114). 

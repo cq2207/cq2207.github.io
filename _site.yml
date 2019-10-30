@@ -1,9 +1,9 @@
 title: "Carolina Cardoso"
 output_dir: "."
 navbar:
-  title: "Carolina Cardoso"
+  title: "CQC"
   left:
-    - text: "Home"
+    - text: "About me"
       href: about_me.html
     - text: "Resume"
       href: resume.html
