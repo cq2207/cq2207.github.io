@@ -10,9 +10,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Carolina Q Cardoso" />
 
+<meta name="date" content="2019-10-30" />
 
-<title>index.utf8</title>
+<title>Problem 2</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -308,30 +310,49 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><p style="color:grey">
-<strong>Carolina Queiroz Cardoso</strong>
-</p></h1>
+<h1 class="title toc-ignore">Problem 2</h1>
+<h4 class="author">Carolina Q Cardoso</h4>
+<h4 class="date">10/30/2019</h4>
 
 </div>
 
 
-<div id="section" class="section level1">
-<h1></h1>
-</div>
-<div id="section-1" class="section level1">
-<h1></h1>
-<p><img src="images/peacedc.jpg" style="width:30%; border:5px; margin-right: 30px" align="left"></p>
-</div>
-<div id="hello" class="section level1">
-<h1>Hello!</h1>
-</div>
-<div id="section-2" class="section level1">
-<h1></h1>
-<p><font size="2">My name is Carolina Cardoso. I’m originally from <a href="https://en.wikipedia.org/wiki/Londrina">Londrina, Brazil</a>, where I live with my parents and five <a href="https://www.instagram.com/theboomers_/?hl=en">dogs</a>.</p>
-<p>I graduated from <a href="https://www.gwu.edu/">The George Washington University</a> in May 2018, with a <em>Bachelor of Sciences in Biology</em>, and a minor in Neuroscience, and a <em>Bachelor of Arts in Psychology</em>. On my junior year, I spent a summer at GW’s <a href="https://summer.gwu.edu/health-promotion">Health Promotion and Disease Prevention in Minority Communities Summer Institute</a>, and, thus, began my passion for Public Health. I decided to make a career out of my passion, and moved to New York City to pursue a Master in Public Health at Columbia University, <a href="https://www.mailman.columbia.edu/academics/departments/epidemiology">Mailman School of Public Health</a>.</p>
-<p><strong>Currently, I’m a second-year MPH candidate in <em>Epidemiology</em> with a certificate in Biostatistics.</strong> My passion and focus within Public Health is <a href="https://www.unfpa.org/sexual-reproductive-health">Sexual and Reproductive Health</a> and advancing health equity and access.</p>
-<p>I currently live in New York City with three rommates and our foster dog, <a href="https://www.nycacc.org/adopt/archer-75114">Archer</a>. </font></p>
-</div>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ────────────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.2.1     ✔ purrr   0.3.2
+## ✔ tibble  2.1.3     ✔ dplyr   0.8.3
+## ✔ tidyr   1.0.0     ✔ stringr 1.4.0
+## ✔ readr   1.3.1     ✔ forcats 0.4.0</code></pre>
+<pre><code>## ── Conflicts ───────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(viridis)</code></pre>
+<pre><code>## Loading required package: viridisLite</code></pre>
+<pre class="r"><code>library(p8105.datasets)
+library(dplyr)
+library(ggplot2)
+
+library(plotly)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;plotly&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
+## 
+##     last_plot</code></pre>
+<pre><code>## The following object is masked from &#39;package:stats&#39;:
+## 
+##     filter</code></pre>
+<pre><code>## The following object is masked from &#39;package:graphics&#39;:
+## 
+##     layout</code></pre>
+<pre class="r"><code>data(&quot;rest_inspec&quot;)
+
+set.seed(1)
+
+rest_inspec = 
+  rest_inspec %&gt;% 
+  janitor::clean_names() %&gt;%
+  mutate_all(tolower) %&gt;%
+  sample_n(5000) </code></pre>
 
 
 

@@ -1,0 +1,37 @@
+---
+title: "Problem 2"
+author: "Carolina Q Cardoso"
+date: "10/30/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(dplyr)
+library(ggplot2)
+
+library(plotly)
+
+```
+
+
+```{r}
+
+data("rest_inspec")
+
+set.seed(1)
+
+rest_inspec = 
+  rest_inspec %>% 
+  janitor::clean_names() %>%
+  mutate_all(tolower) %>%
+  sample_n(5000) 
+
+```
+
