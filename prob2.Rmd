@@ -39,9 +39,6 @@ rest_inspec
 ```
 
 ```{r plot1}
-#rest_inspec$score<-as.numeric(rest_inspec$score)
-#summary(rest_inspec$score)
-#typeof(rest_inspec$score)
 
   rest_inspec %>%
   filter(score >= 0) %>%
