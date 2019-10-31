@@ -4,6 +4,7 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    theme: paper
 ---
 
 ```{r setup, include=FALSE}
@@ -28,12 +29,13 @@ rest_inspec =
 
 ```
 
-Column {data-width=650}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
 ### Chart A
 
 ```{r plot1}
+
 rest_inspec %>%
   drop_na(grade) %>% 
   filter(grade != "Not Yet Graded", grade != "Z", grade != "P") %>%
