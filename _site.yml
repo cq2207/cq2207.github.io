@@ -7,6 +7,8 @@ navbar:
       href: about_me.html
     - text: "Resume"
       href: resume.html
+    - text: "Plots"
+      href: plotly.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<carolina.cardoso@columbia.edu>
