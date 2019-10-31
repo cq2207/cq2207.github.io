@@ -2,7 +2,81 @@
 title: "Plots"
 output:
   html_document:
+    code_folding: hide
     theme: paper
 ---
 
-plots here
+```{r}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(dplyr)
+library(ggplot2)
+
+library(plotly)
+
+```
+
+```{r clean_data}
+
+data("rest_inspec")
+
+set.seed(1)
+
+rest_inspec = 
+  rest_inspec %>% 
+  select(
+    boro, cuisine_description, dba, inspection_date, inspection_type, critical_flag, score, grade) %>%
+  drop_na(score) %>%
+  sample_n(5000) 
+  
+rest_inspec
+
+```
+
+
+```{r plot1}
+
+  rest_inspec %>%
+  filter(score >= 0) %>%
+  mutate(boro = fct_reorder(boro, score)) %>%
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "Accent") %>%
+  layout(title = "Grade Count by Critical Flag",
+         xaxis = list(title = "Grade"),
+         yaxis = list(title = "Count"))
+```
+
+
+```{r plot2}
+
+rest_inspec %>%
+  count(grade, critical_flag) %>%
+  drop_na(grade) %>% 
+  filter(critical_flag != "Not Applicable", grade != "Not Yet Graded", grade != "Z", grade != "P") %>%
+  plot_ly(x = ~grade, y = ~n, type = 'bar', color = ~critical_flag, colors = "Accent") %>%
+  layout(title = "Grade Count by Critical Flag",
+         xaxis = list(title = "Grade"),
+         yaxis = list(title = "Count"))
+
+```
+
+```{r plot3}
+
+rest_inspec %>%
+  drop_na(grade) %>% 
+  filter(grade != "Not Yet Graded", grade != "Z", grade != "P") %>%
+  mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>%
+  mutate(boro = fct_reorder(boro, score)) %>%
+  plot_ly(x = ~score, y = ~cuisine_description, type = "scatter",
+  # Hover text:
+  text = ~paste("Grade: ", grade, ", Cuisine:", cuisine_description, ", Borough:", boro),
+  color = ~grade, colors = "Set1", opacity = 0.6, 
+  marker = (list (
+            size = 8,
+            line = list(color = ~grade, colors = "Set1", width = 0.5)))
+    )%>%
+  layout(title = "Score by Cuisine Type",
+         xaxis = list(title = "Score"),
+         yaxis = list(title = "Cuisine Description"))
+
+```
