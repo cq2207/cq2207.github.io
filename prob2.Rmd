@@ -21,7 +21,7 @@ library(plotly)
 ```
 
 
-```{r}
+```{r clean_data}
 
 data("rest_inspec")
 
@@ -31,7 +31,27 @@ rest_inspec =
   rest_inspec %>% 
   janitor::clean_names() %>%
   mutate_all(tolower) %>%
+  select(
+    boro, cuisine_description, dba, inspection_date, inspection_type, critical_flag, score, grade) %>%
+  drop_na(score) %>%
   sample_n(5000) 
+  
+#rest_inspec
 
 ```
+
+```{r plot1}
+#rest_inspec$score<-as.numeric(rest_inspec$score)
+#summary(rest_inspec$score)
+#typeof(rest_inspec$score)
+
+  rest_inspec %>%
+  mutate(score = as.numeric(score)) %>%
+  filter(score >= 0) %>%
+  mutate(boro = fct_reorder(boro, score)) %>%
+  plot_ly(y = ~score, color = ~boro, type = "box",
+          colors = "Set2")
+
+```
+
 
